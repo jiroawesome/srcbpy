@@ -10,5 +10,5 @@ pip install srcbpy
 ```py
 from srcbpy import srcb
 api = srcb()
-print(srcb.paste('file_path')) # You don't need to do open file code, just type the file path and it will automatically read it.
+print(api.paste('file_path')) # You don't need to do open file code, just type the file path and it will automatically read it.
 ```
